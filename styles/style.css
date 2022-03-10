@@ -1,0 +1,33 @@
+@import url("banner.css");
+@import url("buttons.css");
+@import url("cards.css");
+@import url("footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Serif&display=swap');
+
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Roboto Serif', serif;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.image {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}
+
+	

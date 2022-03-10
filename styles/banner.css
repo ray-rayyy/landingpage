@@ -1,0 +1,36 @@
+#banner {
+	height: 70vh;
+	background-image: url("../images/banner.jpg");
+	background-size: cover;
+	background-position: top;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner h1, h2 {
+	text-align: center;
+
+}
+
+@media (min-width:  300px){
+	#banner {
+		width: auto;
+		object-fit: cover;
+	}
+}
+
+@media (min-width:  576px){
+	#banner {
+		width: auto;
+		object-fit: cover;
+	}
+}
+
+@media (min-width:  768px){
+	#banner {
+		object-fit: cover;
+	}
+}
